@@ -15,7 +15,7 @@ for i in range(0, 4):
     leftWheel.setPosition(1000)
     rightWheel.setPosition(1000)
     # Wait for the robot to reach a corner.
-    robot.step(3900)
+    robot.step(3800)
     # Then, set the right wheel backward, so the robot will turn right.
     leftWheel.setPosition(1000)
     rightWheel.setPosition(-1000)
